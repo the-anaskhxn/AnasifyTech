@@ -18,7 +18,7 @@ jobs:
         run: npm install axios
 
       - name: Run AI Blog Generator
-        run: node scripts/generate.js
+        run: node generate.js
 
       - name: Commit & Push AI Post
         run: |
