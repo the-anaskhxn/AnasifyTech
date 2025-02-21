@@ -2,7 +2,7 @@ import { Configuration, OpenAIApi } from "openai";
 import fs from "fs";
 
 // OpenAI API Key (Get from https://platform.openai.com/)
-const API_KEY = "your_openai_api_key";
+const API_KEY = "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";
 
 const openai = new OpenAIApi(new Configuration({ apiKey: API_KEY }));
 
